@@ -1,0 +1,56 @@
+.titlePage{
+    color: rgb(6, 80, 46);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.aboutMe{
+    background-color: bisque;
+    height: 35rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+}
+.profilePic{
+    background: url(Fox.jpg);
+    height: 400px;
+    width: 600px;
+    border-radius: 50% 20% / 10% 40%;
+    margin-left: 2rem;
+    margin-right: 0px;
+    float: left;
+    
+}
+.hobbiePosition{
+    margin-top: 10px;
+    padding-left: 40rem;
+}
+.hobbyList{
+    list-style-type: none;
+}
+.hobbies{
+    color: brown;
+    font-size: 50px;
+    margin: 0;
+}
+.paragraph{
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+.button{
+    background-color: rgb(2, 8, 43);
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 15px 32px;
+    margin-top: 10px;
+}
+a:hover {
+    text-decoration: none;
+   }
+   .socialTab{
+    text-align: center;
+   }
+   i{
+    margin-right: 15px;
+   }
+   .fa-bed{
+    margin-right: 11px;
+   }
