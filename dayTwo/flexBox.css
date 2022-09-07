@@ -1,0 +1,41 @@
+@media (min-width: 765px){
+    container-1 {
+        display: flex;
+        /* flex start adjusts the start and flex end adjusts the end */
+        align-items: center;
+        flex-direction: row;
+    }
+    .container-2 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+}
+}
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* flex command is used to move content with the window changes */
+.container-1 div, .container-2 div, .container-3 div {
+    border: 1px blue solid;
+}
+
+.box-1 {
+    flex:2;
+    order: 2;
+}
+.box-2 {
+    flex:1
+}
+.box-3 {
+    flex:1
+}
+
+.container-2-box {
+    flex-basis: 27%;
+    justify-content: center;
+}
+.container-3-box {
+    flex-basis: 20%;
+}
+
