@@ -1,0 +1,22 @@
+.titlePage {
+    color: rgb(75, 39, 25);
+
+}
+.pic {
+    background: url(Fox.jpg);
+    height: 400px;
+    width: 600px;
+    border-radius: 50% 20% / 10% 40%;
+    margin-left: 2rem;
+    margin-right: 0px;
+    float: left;
+}
+.buttonFormat {
+    background-color: rgb(83, 114, 157);
+    border-radius: 10%;
+    font: menu;
+    font-size: 100px;
+    height: 200px;
+    width: 300px;
+    float: right;
+}
